@@ -57,7 +57,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/rajasthan.jpg') no-repeat top center ;
+  background: url('images/rajasthan2.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -70,11 +70,11 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
+  border: 3px solid black;
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.2) rotate(360deg);
 }
 .tag {
   background-color: #efefef;
@@ -89,8 +89,8 @@ header .profile-image:hover {
   color: yellow;
 }
 .card {
-  margin: 30px;
-  padding: 20px 40px 40px;
+  margin: 15px;
+  padding: 20px 35px 35px;
   max-width: 500px;
   text-align: left;
   background: #fff;
